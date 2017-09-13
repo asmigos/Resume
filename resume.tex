@@ -1,5 +1,17 @@
-
-
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Configuration
@@ -68,12 +80,16 @@
 \makecvheader
 
 %%% Import contents
-\import{\sectiondir}{education.tex}
-\import{\sectiondir}{extracurricular.tex}
-\import{\sectiondir}{honors.tex}
-\import{\sectiondir}{presentation.tex}
-\import{\sectiondir}{writing.tex}
-\import{\sectiondir}{committees.tex}
+\input{resume/summary.tex}
+\input{resume/experience.tex}
+\input{resume/trainings.tex}
+\input{resume/honors.tex}
+\input{resume/presentation.tex}
 \import{\sectiondir}{workshops.tex}
+\input{resume/writing.tex}
+\input{resume/committees.tex}
+\input{resume/education.tex}
+\input{resume/extracurricular.tex}
+
 
 \end{document}
